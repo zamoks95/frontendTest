@@ -8,13 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@egjs/flicking": "^3.5.1",
     "@svgr/webpack": "5.4.0",
     "formik": "2.1.5",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-slick": "^0.27.11",
     "react-toastify": "^6.0.9",
     "sass": "1.26.11",
+    "slick-carousel": "^1.8.1",
     "yup": "0.29.3"
   }
 }

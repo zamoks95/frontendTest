@@ -4,30 +4,20 @@
   justify-content: center;
   padding: 0px;
   padding-bottom: 6.625rem;
+  
+  margin-top: 5em;
   @media (min-width: 40rem) {
     text-align: left;
     padding: initial;
     padding-bottom: 5rem;
   }
 
-  &:before {
-    content: "";
-    background: $neutro;
-    height: 1px;
-    width: 100%;
-    max-width: 40rem;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 5rem;
-    margin-top: 4rem;
-  }
   .grid {
     @media (min-width: 40rem) {
       align-items: center;
     }
     .display {
       margin-bottom: 1.25em;
-      padding-bottom: 1.25em;
       font-family: $secondaryFont;
       @media (min-width: 40rem) {
         padding-right: 0em;

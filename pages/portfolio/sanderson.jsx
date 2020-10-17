@@ -5,8 +5,17 @@ import Header from '../../components/Header';
 import ContactMe from '../../components/ContactMe';
 import ContactModal from '../../components/ContactModal';
 import styles from '../../styles/PortfolioDetail.module.scss';
-
+import Slider from "react-slick";
 const Portfolio = () => {
+  var carouselSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    dotsClass: styles.carouselDots
+  };
   return (
     <>
       <Head>
@@ -23,6 +32,8 @@ const Portfolio = () => {
           <div className="grid">
             <div className="column">
               <h1>Sanderson</h1>
+
+
               <p className={styles.highlight}>
                 Mental games, optical illusions, to eccentricities, to dreams, to successful
                 impossibilities. When you arrive in the hotel, you do not really understand what is
@@ -67,19 +78,20 @@ const Portfolio = () => {
           </div>
         </section>
         <section id="gallery" className="container container--small">
-          <ul className={styles.gallery}>
-            <li>
+          <Slider {...carouselSettings}>
+            <div>
               <img src="/sanderson-chairs.jpg" />
-            </li>
-            <li>
+            </div>
+            <div>
               <img src="/sanderson-elevator.jpg" />
-            </li>
-            <li>
+            </div>
+            <div>
               <img src="/sanderson-hall.jpg" />
-            </li>
-          </ul>
+            </div>
+          </Slider>
+          
         </section>
-        <nav className={styles.navigation}>
+        <nav className={`container ${styles.navigation}`}>
           <a className={`${styles.link} ${styles.next}`} href="#">
             XIV
             <span className={styles.label}>Siguiente proyecto</span>

@@ -8,6 +8,8 @@
   &--small { max-width: 40rem; }
   @media(min-width: 40rem){
     &{
+      
+  padding: 0 1.25rem;
     }
   }
 }
