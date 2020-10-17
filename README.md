@@ -32,8 +32,8 @@ El objetivo es valorar tu capacidad de comprensión, toma de decisiones, mejora 
 
 Eres libre de modificar cualquier parte del código y/o estructura del proyecto, según convengas. Pero requeriremos que las siguientes tareas estén completadas:
 
-- [ ] Añadir estilos al _Header_ y _Footer_
-- [ ] Añadir funcionalidad para mostrar la navegación _mobile_ utilizando las funciones proporcionadas
+- [x] Añadir estilos al _Header_ y _Footer_
+- [x] Añadir funcionalidad para mostrar la navegación _mobile_ utilizando las funciones proporcionadas
 - [ ] Optimizar y reutilizar el componente de la cabecera de las páginas _Home_ y _Portfolio_
 - [ ] Añadir los estilos de las columnas. El diseño solo tiene dos columnas, pero deberás tener en cuenta el diseño proporcionado. Las clases y estructura del HTML ya están montadas, solo es necesario añadir los estilos.
 - [ ] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML (button, a, span, ...).

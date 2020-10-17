@@ -3,6 +3,7 @@
 .header, .nav {
   align-items: center;
   display: flex;
+
 }
 
 .header {
@@ -10,21 +11,45 @@
   margin-bottom: 1.25rem;
   padding-bottom: .625rem;
   padding-top: .625rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0px;
+  z-index: 10;
+  background: white;
 }
 
 .nav {
   opacity: 0;
-  position: absolute;
   z-index: -1;
-
+  position: fixed;
   &.active {
     opacity: 1;
     z-index: 2;
+    top: calc(1.25rem + .625rem + .625rem);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+  }
+  .navList{
+    position:absolute;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;    
+    li{
+      margin: 1.25rem 0px;
+      padding: 0px;
+    }
   }
 }
 
 .link {
-  margin: 0 2.5rem;
+
+    font-weight: 500;
 
   &:last-child { margin-right: 0; }
 
@@ -46,5 +71,12 @@
     opacity: 1;
     position: initial;
     z-index: 1;
+    .navList{
+      position: initial;
+      flex-direction: row;
+    }
+  }
+  .link {
+  margin: 0 2.5rem;
   }
 }

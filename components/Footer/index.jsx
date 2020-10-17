@@ -14,7 +14,7 @@ const Footer = () => {
           <Logo className={styles.logo} />
         </a>
       </Link>
-      <nav>
+      <nav className={styles.mainNav}>
         <ul className={styles.navList}>
           <li>
             <Link href="/">
@@ -33,7 +33,7 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-      <nav>
+      <nav className={styles.socialNav}>
         <ul>
           <li>
             <Behance />
