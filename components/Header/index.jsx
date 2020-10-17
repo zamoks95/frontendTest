@@ -6,6 +6,8 @@ import Menu from '../../public/menu.svg';
 import Logo from '../../public/logo.svg';
 import styles from './Header.module.scss';
 
+
+
 const Header = () => {
   const { menu, toggleContactModal, toggleMenu } = useAppContext();
 
@@ -34,8 +36,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className={styles.trigger}>
-        {menu && <Cross className={styles.cross} onClick={() => toggleMenu()}/>}
-        {!menu && <Menu className={styles.menu} onClick={() => toggleMenu()}/>}
+        {menu && <Cross className={styles.cross} onClick={() => toggleMenu()} />}
+        {!menu && <Menu className={styles.menu} onClick={() => toggleMenu()} />}
       </div>
     </header>
   );

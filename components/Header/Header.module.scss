@@ -74,6 +74,10 @@
     .navList{
       position: initial;
       flex-direction: row;
+      .active{
+        color: $primary;
+        font-weight: 900;
+      }
     }
   }
   .link {
