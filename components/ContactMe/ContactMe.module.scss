@@ -8,7 +8,6 @@
     text-align: left;
     padding: initial;
     padding-bottom: 5rem;
-    padding-top: 1.25rem;
   }
 
   &:before {
@@ -25,9 +24,6 @@
   .grid {
     @media (min-width: 40rem) {
       align-items: center;
-      .columnButton {
-        background: red;
-      }
     }
     .display {
       margin-bottom: 1.25em;
