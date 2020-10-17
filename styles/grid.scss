@@ -1,3 +1,7 @@
-.grid {}
+.grid {
+    display: flex;
+}
 
-.column {}
+.column {
+    gap: 60px;
+}

@@ -1,0 +1,12 @@
+.billboard{
+    background: red;
+    .intro{
+
+    }
+}
+
+@media (min-width: 48em) {
+    .billboard{
+        background: green;
+    }
+}
