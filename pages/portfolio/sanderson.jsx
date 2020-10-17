@@ -32,8 +32,11 @@ const Portfolio = () => {
           <div className="grid">
             <div className="column">
               <h1>Sanderson</h1>
-
-
+              <span className={styles.arrowGallery}>
+                <a href="#gallery" title="Ver galería">
+                Ver galería →
+                </a>
+              </span>
               <p className={styles.highlight}>
                 Mental games, optical illusions, to eccentricities, to dreams, to successful
                 impossibilities. When you arrive in the hotel, you do not really understand what is
@@ -77,19 +80,33 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
-        <section id="gallery" className="container container--small">
-          <Slider {...carouselSettings}>
-            <div>
-              <img src="/sanderson-chairs.jpg" />
-            </div>
-            <div>
-              <img src="/sanderson-elevator.jpg" />
-            </div>
-            <div>
-              <img src="/sanderson-hall.jpg" />
-            </div>
-          </Slider>
-          
+        <section id="gallery" className={`container`}>
+          <div className={styles.galleryMobile}>
+            <Slider {...carouselSettings}>
+              <div>
+                <img src="/sanderson-chairs.jpg" />
+              </div>
+              <div>
+                <img src="/sanderson-elevator.jpg" />
+              </div>
+              <div>
+                <img src="/sanderson-hall.jpg" />
+              </div>
+            </Slider>
+          </div>
+          <div className={styles.galleryNoMobile}>
+            <ul className={styles.gallery}>
+              <li>
+                <img src="/sanderson-chairs.jpg" />
+              </li>
+              <li>
+                <img src="/sanderson-elevator.jpg" />
+              </li>
+              <li>
+                <img src="/sanderson-hall.jpg" />
+              </li>
+            </ul>
+          </div>
         </section>
         <nav className={`container ${styles.navigation}`}>
           <a className={`${styles.link} ${styles.next}`} href="#">

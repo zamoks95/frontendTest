@@ -2,12 +2,26 @@
 
 .billboard {
   margin-top: 5em;
+  margin-bottom: 2.5em;
 }
 
 .highlight {
-  color: $neutro;
-  font-size: 1.3125rem;
-  line-height: 1.5;
+  display: none;
+  @media (min-width: 48em) {
+    display: block;
+    color: $neutro;
+    font-size: 1.3125rem;
+    line-height: 1.5;
+  }
+}
+.arrowGallery {
+  color: $primary;
+  font-size: 1.25em;
+  padding-bottom: 3em;
+  display: block;
+  @media (min-width: 48em) {
+    display: none;
+  }
 }
 
 .gallery {
@@ -23,6 +37,17 @@
 
   li:last-child {
     width: 100%;
+  }
+}
+.galleryMobile {
+  @media (min-width: 48em) {
+    display: none;
+  }
+}
+.galleryNoMobile {
+  display: none;
+  @media (min-width: 48em) {
+    display: block;
   }
 }
 
@@ -74,18 +99,18 @@
   }
 }
 
-.carouselDots{
+.carouselDots {
   display: flex !important;
   flex-direction: row;
   justify-content: center;
-  li{
+  li {
     width: 1.25em;
     height: 1.25em;
     border-radius: 50%;
     border: 1px solid $neutro;
     color: transparent;
     margin: 3px;
-    button{
+    button {
       opacity: 0;
     }
   }

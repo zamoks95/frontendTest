@@ -39,7 +39,7 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 - [x] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML (button, a, span, ...).
 - [x] Hacer que funcione la validación del formulario de contacto
 - [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
-- [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
+- [x] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
 - [x] La maquetación deberá ser fiel al diseño proporcionado
 - [ ] Optimización de las imágenes para dispositivos
 - [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance
@@ -50,9 +50,9 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 Si **has cumplido todos las tareas a realizar**, con los requisitos que valoramos, y aún te sobra tiempo, puedes mejorar tu prueba
 ampliando con estos nuevos requisitos (recomendamos seguir el orden definido):
 
-- [ ] Mejora de accesibilidad web
+- [x] Mejora de accesibilidad web
 - [ ] Mantener el menú activo en la página correspondiente
-- [ ] Animación del menú mobile y ventana modal
+- [x] Animación del menú mobile y ventana modal
 - [ ] Test con Jest
 
 ## Estructura del proyecto
