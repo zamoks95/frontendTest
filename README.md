@@ -34,16 +34,16 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 
 - [x] Añadir estilos al _Header_ y _Footer_
 - [x] Añadir funcionalidad para mostrar la navegación _mobile_ utilizando las funciones proporcionadas
-- [ ] Optimizar y reutilizar el componente de la cabecera de las páginas _Home_ y _Portfolio_
+- [x] Optimizar y reutilizar el componente de la cabecera de las páginas _Home_ y _Portfolio_
 - [x] Añadir los estilos de las columnas. El diseño solo tiene dos columnas, pero deberás tener en cuenta el diseño proporcionado. Las clases y estructura del HTML ya están montadas, solo es necesario añadir los estilos.
 - [x] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML (button, a, span, ...).
-- [ ] Hacer que funcione la validación del formulario de contacto
-- [ ] Solucionar el funcionamiento de la ventana modal del formulario de contacto
+- [x] Hacer que funcione la validación del formulario de contacto
+- [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
 - [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
-- [ ] La maquetación deberá ser fiel al diseño proporcionado
+- [x] La maquetación deberá ser fiel al diseño proporcionado
 - [ ] Optimización de las imágenes para dispositivos
 - [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance
-- [ ] Compatibilidad en las 2 últimas versiones de navegadores
+- [x] Compatibilidad en las 2 últimas versiones de navegadores
 
 ## ⭐️ Bonus points
 

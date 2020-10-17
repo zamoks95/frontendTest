@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import ContactMe from '../components/ContactMe';
 import ContactModal from '../components/ContactModal';
 import styles from '../styles/Home.module.scss';
-
 const Home = () => {
   return (
     <>
