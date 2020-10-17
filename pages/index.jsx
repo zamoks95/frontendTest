@@ -18,9 +18,9 @@ const Home = () => {
 
       <Header />
       <main className="container">
-        <section className={styles.billboard}>
-          <img src="/main-image.jpg" />
-          <div className={styles.intro}>
+        <section className={"billboard"}>
+          <img className={"billboard__image"} src="/main-image.jpg" />
+          <div className={"billboard__intro"}>
             <h1>Hola, soy Jonas Kahnwald, diseñador de interiores</h1>
             <a className="button" href="#about">
               Sobre mí

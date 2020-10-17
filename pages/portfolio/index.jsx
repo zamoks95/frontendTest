@@ -17,9 +17,9 @@ const Portfolio = () => {
 
       <Header />
       <main className="container">
-        <section className={styles.billboard}>
-          <img src="/sanderson.jpg" />
-          <div className={styles.intro}>
+        <section className={"billboard"}>
+          <img className={"billboard__image"} src="/sanderson.jpg" />
+          <div className={"billboard__intro"}>
             <h2>Sanderson</h2>
             <p>
               Mental games, optical illusions, to eccentricities, to dreams, to successful
