@@ -13,6 +13,7 @@ const Home = () => {
       <Head>
         <title>Frontend Developer Test</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
       <Header />
@@ -26,12 +27,12 @@ const Home = () => {
             </a>
           </div>
         </section>
-        <section id="about">
+        <section id="about" className={styles.aboutSection}>
           <div className="grid">
-            <div className="column">
-              <img src="/profile.jpg" />
+            <div className={`column ${styles.imageWrapper}`}>
+              <img src="/profile.jpg" className={styles.image}/>
             </div>
-            <div className="column">
+            <div className={`column ${styles.content}`}>
               <h2>Sobre mí</h2>
               <p>
                 Mi visión: esa creación, cualquiera que sea la forma que adopte, debe mejorar la
@@ -46,7 +47,7 @@ const Home = () => {
                 adivinar su curso de acción: un objeto debe ser útil antes de ser hermoso.
               </p>
               <Link href="/portfolio">
-                <a className="button button--hollow">Ver mi portfolio</a>
+                <a className={`button button--hollow ${styles.link}`}>Ver mi portfolio</a>
               </Link>
             </div>
           </div>

@@ -1,11 +1,50 @@
+@import "./variables";
 .container {
-  padding-bottom: 5.625rem;
-  padding-top: 5.625rem;
-}
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
+  padding-bottom: 6.625rem;
+  @media (min-width: 40rem) {
+    text-align: left;
+    padding: initial;
+    padding-bottom: 5rem;
+    padding-top: 1.25rem;
+  }
 
-@media (min-width: 48em) {
-  .container {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+  &:before {
+    content: "";
+    background: $neutro;
+    height: 1px;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+  }
+  .grid {
+    @media (min-width: 40rem) {
+      align-items: center;
+      .columnButton {
+        background: red;
+      }
+    }
+    .display {
+      margin-bottom: 1.25em;
+      padding-bottom: 1.25em;
+      font-family: $secondaryFont;
+      @media (min-width: 40rem) {
+        padding-right: 0em;
+        padding-left: 1.25em;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+      }
+    }
+    .button {
+      margin: 0 auto;
+      @media (min-width: 40rem) {
+        margin: 0px 0px 0px auto;
+      }
+    }
   }
 }
